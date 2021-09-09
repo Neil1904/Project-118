@@ -1,0 +1,49 @@
+body{
+    color: blueviolet;
+    text-align: center;
+}
+
+.heading{
+    width: 100%;
+    font-size: 22px;
+}
+
+#camera{
+    border: 7px solid white;
+    border-radius: 10px;
+    width: 350px;
+    height: 300px;
+    
+}
+
+.name_of_objects,#result_object_name,#resut_object_accuracy{
+    color: teal;
+    font-weight: bold;
+}
+
+.result_para_tag {
+    box-shadow: 5px 5px 5px grey;
+    font-size: 20px;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    line-height: 3;
+    text-align: center;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 130px;
+}
+
+.btn-warning{
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
